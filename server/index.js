@@ -17,4 +17,5 @@ app.get("/api/favorite", getFavTapir);
 
 app.get("/api/newsletter", getNewsLetter);
 
+
 app.listen(4000, () => console.log("Server running on 4000"));

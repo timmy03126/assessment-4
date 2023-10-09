@@ -31,5 +31,5 @@ module.exports = {
         let firstName = req.body.firstName
 
         res.status(200).send(`Welcome, ${email}! Thank you for signing up ${firstName}!`)
-    }       
+    }
 }

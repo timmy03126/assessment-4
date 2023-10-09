@@ -39,10 +39,11 @@ const getNewsLetter = () => {
         })
 }
 
+
 complimentBtn.addEventListener('click', getCompliment)
 fortuneBtn.addEventListener(`click`, getFortune)
 favTapirBairds.addEventListener(`click`, getFavTapir)
 favTapirLowland.addEventListener(`click`, getFavTapir)
 favTapirMountain.addEventListener(`click`, getFavTapir)
 favTapirMalayan.addEventListener(`click`, getFavTapir)
-newsLetterBtn.addEventListener(`click`, getNewsLetter)
+newsLetterBtn.addEventListener(`submit`, getNewsLetter)
