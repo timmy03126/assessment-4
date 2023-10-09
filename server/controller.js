@@ -16,6 +16,20 @@ module.exports = {
         let randomFortune = fortunes[randomSpot]
 
         res.status(200).send(randomFortune)
-    }
+    },
+    getFavTapir: (req, res) => {
 
+     if (input === document.getElementById(`Bairds`)) {
+        res.status(200).send()
+     }
+
+
+    },
+    getNewsLetter: (req, res) => {
+        console.log(req.body) 
+        let email = req.body.email
+        let firstName = req.body.firstName
+
+        res.status(200).send(`Welcome, ${email}! Thank you for signing up ${firstName}!`)
+    }       
 }
